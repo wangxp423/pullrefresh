@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:uilib="http://schemas.android.com/apk/res/com.example.testpullrefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.uilib.widget.PullContainerView
+        android:id="@+id/native_listview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/tab_party_pull_container_bg"
+        uilib:enable="false"
+        uilib:footerSuggestedHeight="@dimen/pull_footer_suggested_height"
+        uilib:footerView="@layout/refresh_listview_footer"
+        uilib:headerSuggestedHeight="@dimen/tab_party_pull_header_suggested_height"
+        uilib:headerView="@layout/pull_container_tab_party_header_webview"
+        uilib:mainView="@layout/home_native_listview" />
+</RelativeLayout>

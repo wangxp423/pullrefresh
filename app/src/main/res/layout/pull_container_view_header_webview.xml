@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="300dip"
+    android:orientation="vertical" android:baselineAligned="false"
+    android:background="@drawable/pull_container_background" >
+    
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dip"
+        android:gravity="center"
+        android:textColor="#FF333333"
+        android:textSize="14dip"
+        android:text="寺库(SECOO)我是奢侈品" />
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:paddingTop="16dip" android:paddingBottom="16dip" >
+	
+    <ImageView android:id="@+id/divider_line"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/refresh_icon_line" />
+    
+    <LinearLayout android:orientation="vertical" android:baselineAligned="false"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/divider_line"
+        android:layout_marginRight="10dip" android:layout_marginTop="55dip" >
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="50dip"
+            android:gravity="right" >
+        <ImageView android:id="@+id/icon2"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="6dip"
+            android:src="@drawable/refresh_icon2" />
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@id/icon2"
+	        android:gravity="center_vertical"
+	        android:textColor="#FF333333"
+	        android:textSize="14dip"
+	        android:text="专业维修保养" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:gravity="right" >
+        <ImageView android:id="@+id/icon4"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="6dip"
+            android:src="@drawable/refresh_icon4" />
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@id/icon4"
+	        android:gravity="center_vertical"
+	        android:textColor="#FF333333"
+	        android:textSize="14dip"
+	        android:text="100%正品保证" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical" android:baselineAligned="false"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/divider_line"
+        android:layout_marginLeft="10dip" android:layout_marginTop="16dip" >
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="50dip"
+            android:gravity="left" >
+        <ImageView android:id="@+id/icon1"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="6dip"
+            android:src="@drawable/refresh_icon1" />
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/icon1"
+	        android:gravity="center_vertical"
+	        android:textColor="#FF333333"
+	        android:textSize="14dip"
+	        android:text="权威奢侈品鉴定" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:gravity="left" >
+        <ImageView android:id="@+id/icon1"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="6dip"
+            android:src="@drawable/refresh_icon1" />
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/icon1"
+	        android:gravity="center_vertical"
+	        android:textColor="#FF333333"
+	        android:textSize="14dip"
+	        android:text="7天退换货" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/homepage_pull_header_suggested_height" >
+	    <TextView android:id="@+id/message_txt"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:gravity="center"
+	        android:textColor="#FF333333"
+	        android:textSize="13dip"
+	        android:text="@string/label_refresh_pulldown" />
+	    <FrameLayout android:layout_width="140dip" android:layout_height="fill_parent"
+	        android:layout_centerInParent="true" >
+        <ImageView android:id="@+id/pull_anim_arrow" android:layerType="software"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_gravity="left|center_vertical"
+	        android:src="@drawable/refresh_arrow" />
+	    </FrameLayout>
+	    <ProgressBar android:id="@+id/pull_loading"
+	        android:layout_width="20dip" android:layout_height="20dip"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@id/message_txt"
+	        android:layout_marginRight="8dip"
+	        android:indeterminateBehavior="repeat"
+	        android:indeterminateDrawable="@drawable/progress_refresh"
+	        android:indeterminateDuration="800"
+	        android:indeterminateOnly="true"
+	        android:maxHeight="20dip"
+	        android:maxWidth="20dip"
+	        android:minHeight="20dip"
+	        android:minWidth="20dip"
+	        android:visibility="invisible" />
+	</RelativeLayout>
+</LinearLayout>

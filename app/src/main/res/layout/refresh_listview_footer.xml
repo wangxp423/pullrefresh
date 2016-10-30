@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/xlistview_footer_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/xlistview_footer_hint_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/refresh_listview_footer_hint_normal"
+            android:textColor="@color/new_black_light_color"
+            android:textSize="@dimen/new_small_text_size" />
+
+        <ProgressBar
+            android:id="@+id/xlistview_footer_progressbar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/xlistview_footer_hint_textview"
+            android:background="@drawable/loading_text"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/progress"
+            android:indeterminateDuration="800"
+            android:indeterminateOnly="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/footer_bottom_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_drag_bar_null"
+        android:visibility="gone" />
+
+</LinearLayout>

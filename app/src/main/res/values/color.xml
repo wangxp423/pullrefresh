@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- tab party tabs color -->
+	<color name="tab_party_pull_container_bg">#eeeeee</color>
+	<color name="tab_party_tabs_bg">#1a191e</color>
+	<color name="tab_party_tab_line_color">#e93b39</color>
+	
+	<color name="white">#FFFFFFFF</color>
+    <color name="golden">#FFbaa071</color>
+    <color name="red">#FFdd0000</color>
+    <color name="orange">#FFFF7A03</color>
+    <color name="tabname">#999999</color>
+    <color name="tabname_selected">#FF7148bf</color>
+    <color name="gray_text">#FFadadad</color>
+    <color name="gray_textab">#FFababab</color>
+    <color name="text_hint">#FFc6c6c6</color>
+    <color name="line">#e6e6e6</color>
+    <color name="titlebar">#FFFFFFFF</color>
+    <color name="title">#1a191e</color>
+    <color name="dialog_title">#FF000000</color>
+    <color name="dialog_message">#FF000000</color>
+    <color name="background_content">#eeeeee</color>
+    <color name="background_gray">#FFededed</color>
+    <color name="background_white">#FFf5f5f5</color>
+    <color name="view_mask">#88000000</color>
+    <color name="view_mask_gray">#AAeeeeee</color>
+    <color name="view_mask_white">#4Affffff</color>
+    <color name="transparent_gray">#20333333</color>
+    
+    <!-- new ui/ue ,style colors -->
+	<color name="new_bule_color">#007aff</color>
+	<color name="new_purple_color">#7148bf</color><!-- 紫色 -->
+	<color name="new_purple_light_color">#c897f2</color><!-- 淡紫色 -->
+	<color name="new_red_color">#e93b39</color>
+	<color name="new_gold_color">#baa071</color>
+	<color name="new_black_color">#474747</color>
+	<color name="new_black_light_color">#737373</color>
+	<color name="new_black_lighter_color">#1a191e</color>
+	<color name="new_gray_color">#9a9a9a</color>
+	<color name="new_gray_light_color">#d5d5d5</color>
+	<color name="new_gray_lighter_color">#B2777777</color>
+	<color name="new_white">#c9c9c9</color>
+	<color name="new_white_color">#f5f5f5</color>
+	<color name="new_white_light_color">#ffffffff</color>
+	<color name="new_layer_black_color">#B2000000</color>
+	<color name="new_layer_black_light_color">#72000000</color>
+	<color name="new_layer_white_color">#B2ffffff</color>
+	<color name="new_layer_gray_color">#e7e7e7</color>
+	<color name="new_button_background_color">#B2675589</color>
+	<color name="new_button_background_select_color">#B27148bf</color>
+	<color name="new_null_color">#00000000</color>
+	<color name="new_get_message_code_background_color">#F1F1F1</color>
+	<color name="new_hint_text_color">#cccccc</color>
+	<color name="new_line_color">#ECECEC</color>
+</resources>

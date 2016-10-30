@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestPullRefresh</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="label_refresh_pulldown">下拉刷新</string>
+    <string name="tab_party_refresh_release">松开加载</string>
+    <string name="pull_up_message">上拉发现更多商品</string>
+    
+    <!-- for my list view -->
+	<string name="refresh_listview_header_hint_normal">下拉可以刷新</string>
+    <string name="refresh_listview_header_hint_ready">释放立即刷新</string>
+    <string name="refresh_listview_header_hint_loading">正在载入&#8230;</string>
+    <string name="refresh_listview_header_hint_failed">数据更新失败，点击重试</string>
+    <string name="refresh_listview_header_last_time">上次更新：</string>
+    <string name="refresh_listview_footer_hint_normal">上拉载入更多&#8230;</string>
+    <string name="refresh_listview_footer_hint_loading">正在加载，请稍候&#8230;</string>
+    <string name="refresh_listview_footer_hint_ready">释放立即载入</string>
+    <string name="refresh_listview_footer_hint_failed">数据加载失败，点击重试</string>
+
+</resources>
